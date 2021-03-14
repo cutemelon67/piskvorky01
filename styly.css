@@ -1,1 +1,61 @@
+body {
+  background: linear-gradient(to bottom, #615dad, #ffc8da);
+}
 
+.aplikace {
+  width: 350px;
+  background-color: #283e50;
+  color: #ffffff;
+  margin: 100px auto;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  margin: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  margin: 0px 20px 35px 20px;
+}
+
+.foto-logo {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+/* Odkazy */
+
+.linky {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.linky a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+}
+
+.pravidla {
+  background-color: #1fcca4;
+  border-bottom: 1px solid #283e50;
+}
+
+.pravidla a:hover {
+  background-color: #1cbb96;
+}
+
+.zacithrat {
+  background-color: #0197f6;
+}
+
+.zacithrat a:hover {
+  background: #0090e9;
+}
