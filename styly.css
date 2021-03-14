@@ -1,9 +1,12 @@
 body {
   background: linear-gradient(to bottom, #615dad, #ffc8da);
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .aplikace {
-  width: 350px;
+  width: 330px;
   background-color: #283e50;
   color: #ffffff;
   margin: 120px auto;
