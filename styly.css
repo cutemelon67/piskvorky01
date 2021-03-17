@@ -25,19 +25,19 @@ body {
 
 .obsah {
   background-color: #283e50;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
-  margin: 30px;
+  margin: 20px;
   text-align: center;
   font-size: 50px;
 }
 
 p {
   text-align: center;
-  margin: 0px 20px 35px 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 .foto-logo {
