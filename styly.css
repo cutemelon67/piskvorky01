@@ -12,13 +12,15 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   line-height: 1.5;
+  margin: 0;
+  height: 100vh;
 }
 
 .aplikace {
   width: 330px;
   background-color: #283e50;
   color: #ffffff;
-  margin: 150px auto;
+  margin: 100px auto;
 }
 
 h1 {
