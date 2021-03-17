@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
 body {
   background: linear-gradient(to bottom, #615dad, #ffc8da);
   font-family: sans-serif;
@@ -9,7 +18,7 @@ body {
   width: 330px;
   background-color: #283e50;
   color: #ffffff;
-  margin: 120px auto;
+  margin: 150px auto;
 }
 
 h1 {
