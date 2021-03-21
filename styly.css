@@ -6,6 +6,7 @@ html {
 ::before {
   box-sizing: inherit;
 }
+/* Úkol č. 1 */
 
 body {
   background: linear-gradient(to bottom, #615dad, #ffc8da);
@@ -79,4 +80,30 @@ p {
 
 .zacithrat a:hover {
   background: #0090e9;
+}
+
+/* Úkol č. 2*/
+
+.circle,
+.cross {
+  width: 1em;
+  height: 1em;
+  filter: invert(100%);
+}
+
+.pravidlahry {
+  background-color: #283e50;
+  padding: 5px 0;
+  width: 330px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.uvodnistranka {
+  background-color: #1fcca4;
+  border-bottom: 1px solid #283e50;
+}
+
+.uvodnistranka a:hover {
+  background-color: #1cbb96;
 }
