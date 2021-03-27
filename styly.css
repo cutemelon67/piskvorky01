@@ -109,11 +109,10 @@ ol {
 
 .pravidlahry {
   background-color: #283e50;
-  padding: 30px 30px 10px 30px;
   min-width: 330px;
   max-width: 800px;
   color: #ffffff;
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
 }
 
 /* Obrázky */
@@ -124,9 +123,10 @@ figure {
 }
 
 .obrazky {
-  padding: 0;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
+  margin: 30px 0 40px 0;
 }
 
 .obrazky img {
