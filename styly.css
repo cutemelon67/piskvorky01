@@ -12,7 +12,7 @@ body {
   background: linear-gradient(to bottom, #615dad, #ffc8da);
   font-family: sans-serif;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
   margin: 0;
   min-height: 100vh;
   padding-top: 100px;
@@ -84,12 +84,28 @@ p {
 
 /* Úkol č. 2*/
 
+/* Odrážky */
+
+ol {
+  margin: 35px;
+  padding: 0 20px 0 20px;
+}
+
+.odrazky li {
+  padding: 0 0 20px 0;
+  text-align: left;
+}
+
+/* Křížek a Kroužek */
+
 .circle,
 .cross {
   width: 1em;
   height: 1em;
   filter: invert(100%);
 }
+
+/* Tělo aplikace */
 
 .pravidlahry {
   background-color: #283e50;
@@ -99,6 +115,8 @@ p {
   margin: 0 auto;
 }
 
+/* Tlačítka */
+
 .uvodnistranka {
   background-color: #1fcca4;
   border-bottom: 1px solid #283e50;
@@ -106,4 +124,47 @@ p {
 
 .uvodnistranka a:hover {
   background-color: #1cbb96;
+}
+
+/* Obrázky */
+
+figure {
+  padding: 20px;
+  margin: 0;
+}
+
+.obrazky img {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.obrazky figcaption {
+  padding: 10px 0 0 0;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Tablet */
+
+@media (min-width: 540px) {
+  .obrazky {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .figure {
+    flex-wrap: wrap;
+    width: calc((100% - 30px) / 2);
+  }
+}
+
+/* Desktop */
+@media (min-width: 960px) {
+  .pravidlahry {
+    max-width: 960px;
+  }
 }
