@@ -110,7 +110,7 @@ ol {
 .pravidlahry {
   background-color: #283e50;
   padding: 5px 0;
-  width: 330px;
+  max-width: 800px;
   color: #ffffff;
   margin: 0 auto;
 }
@@ -129,16 +129,15 @@ ol {
 /* Obrázky */
 
 figure {
-  padding: 20px;
-  margin: 0;
+  margin-bottom: 40px;
+}
+
+.obrazky {
+  padding: 0;
 }
 
 .obrazky img {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
 
 .obrazky figcaption {
@@ -154,10 +153,11 @@ figure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 0px;
   }
 
   .figure {
-    flex-wrap: wrap;
     width: calc((100% - 30px) / 2);
   }
 }
