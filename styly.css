@@ -51,35 +51,36 @@ p {
 
 /* Odkazy */
 
-.linky {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.piskvorky__tlacitko {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.linky a {
+.piskvorky__tlacitko a {
   text-decoration: none;
-  color: white;
-  padding: 15px;
+  color: #ffffff;
   display: block;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
 }
 
-.pravidla {
+.piskvorky__tlacitko--zelene {
   background-color: #1fcca4;
   border-bottom: 1px solid #283e50;
 }
 
-.pravidla a:hover {
+.piskvorky__tlacitko--zelene:hover {
   background-color: #1cbb96;
 }
 
-.zacithrat {
+.piskvorky__tlacitko--modre {
   background-color: #0197f6;
 }
 
-.zacithrat a:hover {
-  background: #0090e9;
+.piskvorky__tlacitko--modre:hover {
+  background-color: #0090e9;
 }
 
 /* Úkol č. 2*/
@@ -88,7 +89,6 @@ p {
 
 ol {
   margin: 35px;
-  padding: 0 20px 0 20px;
 }
 
 .odrazky li {
@@ -109,35 +109,29 @@ ol {
 
 .pravidlahry {
   background-color: #283e50;
-  padding: 5px 0;
+  padding: 30px 30px 10px 30px;
+  min-width: 330px;
   max-width: 800px;
   color: #ffffff;
   margin: 0 auto;
 }
 
-/* Tlačítka */
-
-.uvodnistranka {
-  background-color: #1fcca4;
-  border-bottom: 1px solid #283e50;
-}
-
-.uvodnistranka a:hover {
-  background-color: #1cbb96;
-}
-
 /* Obrázky */
 
 figure {
-  margin-bottom: 40px;
+  padding: 20px;
+  margin: 0;
 }
 
 .obrazky {
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .obrazky img {
-  width: 100%;
+  max-width: 100%;
+  margin: 0;
 }
 
 .obrazky figcaption {
@@ -150,20 +144,21 @@ figure {
 
 @media (min-width: 540px) {
   .obrazky {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 30px;
-    padding-bottom: 0px;
+    flex-direction: row;
   }
 
-  .figure {
+  figure {
+    flex-wrap: wrap;
     width: calc((100% - 30px) / 2);
   }
 }
 
 /* Desktop */
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
   .pravidlahry {
     max-width: 960px;
   }
