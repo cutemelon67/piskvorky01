@@ -168,3 +168,16 @@ figure {
     max-width: 960px;
   }
 }
+
+/* Úkol č. 3 */
+
+.hra {
+  max-width: 80vmin;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.navigace {
+  display: flex;
+  justify-content: space-between;
+}
