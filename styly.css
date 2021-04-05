@@ -84,7 +84,7 @@ p {
   background-color: #0090e9;
 }
 
-/* Úkol č. 2*/
+/* Úkol č. 2 - Pravidla */
 
 /* Odrážky */
 
@@ -169,7 +169,7 @@ figure {
   }
 }
 
-/* Úkol č. 3 */
+/* Úkol č. 3 - Hra */
 
 .hra {
   max-width: 80vmin;
@@ -180,4 +180,74 @@ figure {
 .navigace {
   display: flex;
   justify-content: space-between;
+}
+
+.navigace-vlevo p {
+  text-transform: uppercase;
+  margin-right: 7px;
+  margin-left: 0;
+  display: inline-block;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.hra-symbol {
+  width: 1em;
+  height: 1em;
+  filter: invert(100%);
+}
+
+.navigace-vpravo {
+  margin-right: 0;
+}
+
+.navigace-vpravo a {
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.ikona-home {
+  background-color: #1fcca4;
+  margin-right: 10px;
+  padding: 20px 7px 10px 10px;
+}
+
+.ikona-home:hover,
+.ikona-home:focus {
+  background-color: #1cbb96;
+}
+
+.ikona-zpet {
+  background-color: #0197f6;
+  padding: 20px 12px 11px 10px;
+}
+
+.ikona-zpet:hover,
+.ikona-zpet:focus {
+  background-color: #0090e9;
+}
+
+/* hrací plocha */
+
+.hraci-plocha {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vmin;
+  margin-top: 15px;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.policko {
+  flex-basis: 10%;
+  border: 1px solid black;
+  background: hsla(0, 0%, 100%, 0.315);
+  cursor: pointer;
+}
+.policko:hover,
+.policko:focus {
+  background: hsla(0, 0%, 100%, 0.616);
+  outline: none;
 }
