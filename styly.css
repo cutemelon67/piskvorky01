@@ -234,10 +234,8 @@ figure {
   flex-wrap: wrap;
   height: 70vmin;
   margin-top: 15px;
+  margin-bottom: 15px;
   border: 1px solid black;
-  padding: 0;
-  margin: 0;
-  width: 100%;
 }
 
 .policko {
