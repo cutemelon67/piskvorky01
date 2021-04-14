@@ -14,7 +14,7 @@
       <nav class="navigace">
         <div class="navigace-vlevo">
           <p>Hraje:</p>
-          <img class="hra-symbol" src="circle.svg" alt="Kroužek" />
+          <img id="hrac" class="hra-symbol" src="circle.svg" alt="Kroužek" />
         </div>
         <div class="navigace-vpravo">
           <a class="ikona-home" href="index.html">
@@ -27,57 +27,108 @@
       </nav>
 
       <div class="hraci-plocha">
-        <button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button
-        ><button class="policko"></button><button class="policko"></button>
+        <button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button
+        ><button class="board__field"></button>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

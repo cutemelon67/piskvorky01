@@ -239,14 +239,24 @@ figure {
   border: 1px solid black;
 }
 
-.policko {
+.board__field {
   flex-basis: 10%;
   border: 1px solid black;
   background: hsla(0, 0%, 100%, 0.315);
   cursor: pointer;
 }
-.policko:hover,
-.policko:focus {
+.board__field:hover,
+.board__field:focus {
   background: hsla(0, 0%, 100%, 0.616);
   outline: none;
+}
+
+.board__field--cross {
+  background: rgba(255, 255, 255, 0.4) url(cross.svg) no-repeat center;
+  background-size: 70%;
+}
+
+.board__field--circle {
+  background: rgba(255, 255, 255, 0.4) url(circle.svg) no-repeat center;
+  background-size: 70%;
 }
