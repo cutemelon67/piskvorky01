@@ -247,7 +247,7 @@ figure {
 }
 .board__field:hover,
 .board__field:focus {
-  background: hsla(0, 0%, 100%, 0.616);
+  background-color: hsla(0, 0%, 100%, 0.616);
   outline: none;
 }
 
